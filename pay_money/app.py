@@ -27,7 +27,7 @@ def is_pay_money(n):
 
 def validate_number(x):
     if x < 0:
-        raise InvalidError("2以上の整数値を入力してください。")
+        raise InvalidError("整数値を入力してください。")
 
 def lambda_handler(event, context):
     """Sample pure Lambda function
